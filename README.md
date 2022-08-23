@@ -10,9 +10,11 @@ Once the repository has been cloned successfully onto your machine, you may navi
 I would suggest create these two folders which are referenced by main.go `logs` and ` public_html` 
 
 # Starting the webserver
+Navigate to the main directory and then run
 
 `go run main.go`
 
 # Your GO webserver is now running!
 You can access the webserver via the IP of your machine on port 8888
+
 `http://localhost:8888`
