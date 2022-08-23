@@ -25,9 +25,16 @@ func RequestLogger(targetMux http.Handler) http.Handler {
 	})
 }
 
-func main() {
-	fileName := "./logs/log.txt"
+func state() {
+	fmt.Println("Started Golang Webserver")
+}
 
+func main() {
+	go func() {
+		state()
+	}()
+
+	fileName := "./logs/log.txt"
 	logFile, err := os.OpenFile(fileName, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666)
 
 	if err != nil {
