@@ -4,10 +4,13 @@ This is a simple webserver that can be hosted on a machine that has golang insta
 
 # How to get started - Linux
 First start by cloning the repository onto your machine
+
 `git clone https://github.com/dkay-zaxxx/go-webserver`
 
-Once the repository has been cloned successfully onto your machine, you may navigate into the directory and create a folder logs and web content
-I would suggest create these two folders which are referenced by main.go `logs` and ` public_html` 
+# Installing Golang
+You can install golang from snapcraft
+
+`snap install go --classic`
 
 # Starting the webserver
 Navigate to the main directory and then run
