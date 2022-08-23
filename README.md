@@ -4,11 +4,15 @@ This is a simple webserver that can be hosted on a machine that has golang insta
 
 # How to get started - Linux
 First start by cloning the repository onto your machine
->`git clone https://github.com/dkay-zaxxx/go-webserver`
+`git clone https://github.com/dkay-zaxxx/go-webserver`
 
-Once the repository has been cloned successfully onto your machine, you may navigate into the directory and create a logs folder
->`mkdir logs` you can then nagivate to the main directory and run `go run main.go`
+Once the repository has been cloned successfully onto your machine, you may navigate into the directory and create a folder logs and web content
+I would suggest create these two folders which are referenced by main.go `logs` and ` public_html` 
+
+# Starting the webserver
+
+`go run main.go`
 
 # Your GO webserver is now running!
 You can access the webserver via the IP of your machine on port 8888
->`http://localhost:8888`
+`http://localhost:8888`
